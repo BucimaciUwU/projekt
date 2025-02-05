@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lexend+Giga:wght@100..900&family=Press+Start+2P&display=swap');
+body{
+    font-family: "Chakra Petch", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+p{
+    text-indent: 15px;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: justify;
+}
+h1{
+    font-family: "Chakra Petch", serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+h3{
+    font-family: "Chakra Petch", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+a{
+    font-family: "Chakra Petch", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 10px;
+  text-align: center;
+}
+img{
+    width: 100%;
+}
+.vissza{
+   text-align: center;
+}
+footer{
+    text-align: center;
+    font-family: "Chakra Petch", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+#kep8{
+  width: 50%;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#kep9{
+  width: 50%;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#kep10{
+  width: 50%;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#kep11{
+  width: 50%;
+  float: left ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#kep12{
+  width: 25%;
+  float: left ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#kep13{
+  width: 50%;
+  float: right ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#kep14{
+  width: 120%;
+  float: left ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#kep15{
+  width: 50%;
+  float: right ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#kep16{
+  width: 50%;
+  float: right ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#kep22{
+  width: 40%;
+  float: right ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#kep23{
+  width: 40%;
+  float: left ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#kep24{
+  width: 50%;
+ 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

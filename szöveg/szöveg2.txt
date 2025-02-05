@@ -1,0 +1,253 @@
+How To Add CSS
+
+
+When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet.
+
+
+Three Ways to Insert CSS
+
+
+There are three ways of inserting a style sheet:
+
+    External CSS
+    Internal CSS
+    Inline CSS
+
+
+External CSS
+
+
+With an external style sheet, you can change the look of an entire website by changing just one file!
+
+Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+
+
+KEP15
+
+
+An external style sheet can be written in any text editor, and must be saved with a .css extension.
+
+The external .css file should not contain any HTML tags.
+
+Here is how the "mystyle.css" file looks:
+
+
+KEP16
+
+
+Note: Do not add a space between the property value (20) and the unit (px):
+Incorrect (space): margin-left: 20 px;
+Correct (no space): margin-left: 20px;
+
+
+Internal CSS
+
+
+
+An internal style sheet may be used if one single HTML page has a unique style.
+
+The internal style is defined inside the <style> element, inside the head section.
+
+
+KEP17
+
+
+Inline CSS
+
+
+An inline style may be used to apply a unique style for a single element.
+
+To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+
+
+KEP18
+
+
+Multiple Style Sheets
+
+
+If some properties have been defined for the same selector (element) in different style sheets, the value from the last read style sheet will be used. 
+
+KEP19
+
+
+KEP20
+
+
+Cascading Order
+
+
+What style will be used when there is more than one style specified for an HTML element?
+
+All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
+
+    Inline style (inside an HTML element)
+    External and internal style sheets (in the head section)
+    Browser default
+
+So, an inline style has the highest priority, and will override external and internal styles and browser defaults.
+
+
+CSS Comments
+
+CSS comments are not displayed in the browser, but they can help document your source code.
+
+Comments are used to explain the code, and may help when you edit the source code at a later date.
+
+Comments are ignored by browsers.
+
+A CSS comment is placed inside the <style> element, and starts with /* and ends with */:
+
+
+KEP21
+
+
+You can add comments wherever you want in the code:
+
+
+KEP22
+
+
+Even in the middle of a code line:
+
+
+KEP23
+
+
+Comments can also span multiple lines: 
+
+
+
+KEP24
+
+
+HTML and CSS Comments
+
+
+From the HTML tutorial, you learned that you can add comments to your HTML source by using the <!--...--> syntax.
+
+In the following example, we use a combination of HTML and CSS comments:
+
+
+KEP25
+
+
+CSS Colors
+
+
+Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+
+
+CSS Color Names
+
+
+In CSS, a color can be specified by using a predefined color name:
+
+
+KEP26
+
+
+CSS Background Color
+
+You can set the background color for HTML elements:
+
+
+KEP27
+
+
+CSS Text Color
+
+You can set the color of text:
+
+
+KP28
+
+
+CSS Border Color
+
+You can set the color of borders:
+
+
+KEP29
+
+
+CSS Color Values
+
+In CSS, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values:
+
+Same as color name "Tomato":
+
+
+KEP30
+
+
+Same as color name "Tomato", but 50% transparent:
+
+
+
+KEP31
+
+
+CSS Backgrounds
+
+The CSS background properties are used to add background effects for elements.
+
+
+KEP32
+
+
+CSS background-color
+
+The background-color property specifies the background color of an element.
+
+
+KEP33
+
+
+With CSS, a color is most often specified by:
+
+    a valid color name - like "red"
+    a HEX value - like "#ff0000"
+    an RGB value - like "rgb(255,0,0)"
+
+Look at CSS Color Values for a complete list of possible color values.
+
+
+Other Elements
+
+You can set the background color for any HTML elements:
+
+
+KEP34
+
+
+Opacity / Transparency
+
+The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent:
+
+
+KEP35
+
+
+Transparency using RGBA
+
+If you do not want to apply opacity to child elements, like in our example above, use RGBA color values. The following example sets the opacity for the background color and not the text:
+
+
+KEP36
+
+
+You learned from our CSS Colors Chapter, that you can use RGB as a color value. In addition to RGB, you can use an RGB color value with an alpha channel (RGBA) - which specifies the opacity for a color.
+
+An RGBA color value is specified with: rgba(red, green, blue, alpha). The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).
+
+Tip: You will learn more about RGBA Colors in our CSS Colors Chapter.
+
+
+KEP37
+
+
+The CSS Background Color Property
+
+
+KEP38
